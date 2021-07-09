@@ -1,0 +1,57 @@
+body {
+	font-family: "Comfortaa", cursive;
+	padding: 12px;
+	margin: 0;
+	text-align: center;
+}
+
+
+div {
+	background-color: #ffffff;
+}
+
+h1 {
+	color: #242c95;
+	margin-top: 0;
+}
+
+
+.demo-button {
+	background-color: #242c95;
+	border-radius: 8%;
+	color: white;
+	font-family: "Comfortaa", cursive;
+	font-size: 12px;
+	padding: 15px;
+	text-decoration: none;
+	width: 100px;
+}
+
+.fa {
+	color: #242c95;
+	font-family: "Comfortaa", cursive;
+	font-size: 10px;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	width: 13px;
+}
+
+.fa:hover {
+	opacity: 50%;
+}
+
+.first-container {
+	color: #f82c6b;
+	text-align: right;
+}
+
+.second-container {
+	background-color: #b3e9f5;
+}
+
+.third-container {
+	background-color: #13247b;
+	color: #b3e9f5;
+	margin: 0px
+}
