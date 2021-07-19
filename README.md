@@ -1,4 +1,4 @@
-<img src="images/StartUp.gif">
+<img src="https://github.com/kaspak/startup-website/blob/main/mySite/images/StartUp.gif" height="400">
 
 # About
 This is a basic HTML/CSS demo website for a (fake) startup called StartUp. I created this website to practice HTML/CSS I learned from Angela Yu's Web Development course on Udemy.
