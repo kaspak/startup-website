@@ -12,9 +12,94 @@ div {
 
 h1 {
 	color: #242c95;
-	margin-top: 0;
+	font-size: 2rem;
+	margin: 50px auto 0 auto;
 }
 
+h2 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+h3 {
+	color: #fac929;
+	padding-top: 50px;
+}
+
+img {
+	height: 25rem;
+}
+
+.button {
+	border-radius: 5px;
+	background-color: #fa266b;
+	border: none;
+	color: #242c95;
+	text-align: center;
+	text-decoration: none;
+	font-size: .75em;
+	font-weight: bolder;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.company-img {
+	float: left;
+	height: 300px;
+	margin-right: 30px;
+	text-align: left;
+}
+
+.puzzle-img {
+	float: right;
+	height: 300px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+.container {
+	padding: 1em;
+	text-align: left;
+	background-color: inherit;
+}
+
+.container-desc-left {
+	margin: 50px 300px 75px 200px;
+	text-align: left;
+}
+
+.container-desc-right {
+	margin: 75px 200px 50px 300px;
+	text-align: left;
+}
 
 .demo-button {
 	background-color: #242c95;
@@ -41,17 +126,27 @@ h1 {
 	opacity: 50%;
 }
 
-.first-container {
+.footer {
+	text-align: center;
+}
+
+.first {
 	color: #f82c6b;
-	text-align: right;
 }
 
-.second-container {
+.second {
 	background-color: #b3e9f5;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.third-container {
+.third {
 	background-color: #13247b;
 	color: #b3e9f5;
-	margin: 0px
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.fourth {
+	background-color: #fac929;
 }
